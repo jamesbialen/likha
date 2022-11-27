@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(pirate.gif);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 30vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.likha{
+    width: 160px;
+    cursor: pointer;
+}
+.logo{
+    width: 80px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(6, 15, 19);
+    font-weight: 900;
+}
+
+.content h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #fc00da;
+
+}
+.content p{
+    font-size: 20px;
+    color: #06ff59;
+}
+.content{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.arrow-icons{
+    margin-top: 40px;
+    display: flex;
+}
+.arrow-icons img{
+    width: 300px;
+    margin-right: 25px;
+}
+
+.social-links{
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -80px;
+    bottom: 180px;
+}
+.social-links a{
+    text-decoration: none;
+    color: #01d9ff;
+    padding-right: 20px;
+    font-size: 14px;
+}
+.social-links  .btn{
+    display: inline-block;
+    background-image: url(boat.gif);
+    height: auto;
+    width: auto:
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #01d9ff;
+    font-weight: 900;
+    box-shadow: 3px 8px 22px rgba(94,28,69,0.15);
+}
